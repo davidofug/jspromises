@@ -54,12 +54,15 @@ const rightPromise = async () => {
 		);
 		const json = await response.json();
 		const [post1, post2, post3] = json;
-		RIGHT.innerHTML = `<h1>Posts</h1>
-		<ul>
-			<li>${post1.title}</li>
-			<li>${post2.title}</li>
-			<li>${post3.title}</li>
+		RIGHT.innerHTML = `
+		<aside class="bg-gray p10">
+			<h1>Posts</h1>
+			<ul>
+				<li>${post1.title}</li>
+				<li>${post2.title}</li>
+				<li>${post3.title}</li>
 			</ul>
+		</aside>
 		`;
 	} catch (error) {
 		console.error("Post error", error);
