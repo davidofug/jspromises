@@ -7,14 +7,14 @@ This is project is to help you learn how to use promises and avoid callbacks.
 ### Files
 
     - assets
-        |_ css
-            |_ style.css
-        |_ scripts
-            |_ asynchronous.js
-            |_ synchronous.js
-            |_ promises.js
+        |- css
+            |- style.css
+        |-scripts
+            |- asynchronous.js
+            |- synchronous.js
+            |- promises.js
     - data
-        |_ left.txt
+        |-left.txt
     - asynchronous.html
     - synchronous.html
     - promises.html
