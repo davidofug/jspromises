@@ -34,9 +34,9 @@ In JavaScript synchronous code executes line by line.
 
 **Cons**
 
-1. It can be inefficient
+1. It can be inefficient because slow code will prevent execution of subsquent code since the code has to be executed line by line.
 
-#### Test the synchronous
+#### Test the Synchronous Behaviour
 
 1. Open synchronous.html in the browser and check your console.
 2. Open synchronous.js in your code editor
