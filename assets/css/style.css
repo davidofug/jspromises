@@ -22,16 +22,26 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	font-size: 0.9rem;
 }
 
 .grid {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: 200px auto 200px;
 	grid-gap: 20px;
 }
+.col {
+	padding: 10px;
+}
+.bg-gray {
+	background-color: #f0f0f0;
+}
+.border-r {
+	border-right: 1px solid #ccc;
+}
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 800px) {
 	.container {
-		width: 80%;
+		width: 90%;
 	}
 }

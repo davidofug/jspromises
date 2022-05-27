@@ -53,8 +53,14 @@ const rightPromise = async () => {
 			"https://jsonplaceholder.typicode.com/posts"
 		);
 		const json = await response.json();
-		const [post1] = json;
-		RIGHT.innerHTML = post1.body;
+		const [post1, post2, post3] = json;
+		RIGHT.innerHTML = `<h1>Posts</h1>
+		<ul>
+			<li>${post1.title}</li>
+			<li>${post2.title}</li>
+			<li>${post3.title}</li>
+			</ul>
+		`;
 	} catch (error) {
 		console.error("Post error", error);
 	}
