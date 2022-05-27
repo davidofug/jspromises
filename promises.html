@@ -4,14 +4,24 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="/assets/css/style.css" rel="stylesheet" />
 		<title>Promises</title>
 	</head>
 	<body>
-		<section>
+		<section class="container grid debug">
 			<!-- HTML5 symantic -->
-			<sidebar>Left sidebar</sidebar>
-			<article>Main article</article>
-			<sidebar>Right side bar</sidebar>
+			<sidebar id="left">
+				<h1>Side bar</h1>
+				<p>Loading...</p>
+			</sidebar>
+			<article id="article">
+				<h1>Heading</h1>
+				<p>Loading...</p>
+			</article>
+			<sidebar id="right">
+				<h1>Side bar</h1>
+				<p>Loading...</p>
+			</sidebar>
 		</section>
 		<script src="assets/scripts/promises.js"></script>
 	</body>
