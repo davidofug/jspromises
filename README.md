@@ -5,9 +5,7 @@ In the past callbacks was the solution to handle/implement asynchronous behaviou
 
 But the callback code is always hard to debug and maintain because it's difficult to read and understand.
 
-## Get started
-
-### Files
+### Project Structure
 
     - assets
         |- css
@@ -41,5 +39,6 @@ In JavaScript synchronous code executes line by line.
 1. Open synchronous.html in the browser and check your console.
 2. Open synchronous.js in your code editor
 3. You will see that the output in the console is exactly in the order the code was written.
+4. At the console you should something like below. ↓
 
 ### Asynchronous Behaviour Explained
