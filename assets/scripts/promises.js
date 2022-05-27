@@ -49,12 +49,15 @@ fetch("https://jsonplaceholder.typicode.com/posts/1")
 
 const rightPromise = async () => {
 	try {
-		const response = await fetch("https://jsonplaceholder.typicode.com/posts");
-	const json = await response.json();
-	const [post1] = json;
-	RIGHT.innerHTML = post1.body;
+		const response = await fetch(
+			"https://jsonplaceholder.typicode.com/posts"
+		);
+		const json = await response.json();
+		const [post1] = json;
+		RIGHT.innerHTML = post1.body;
 	} catch (error) {
-		console.error('Post error', error);
+		console.error("Post error", error);
+	}
 };
 
 rightPromise();
