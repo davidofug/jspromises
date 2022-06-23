@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent-contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 30px;
+    
+}
+.left-contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    /* margin: 80px; */
+    border-right: 3px solid black;
+    height: 50vh;
+    
+}
+.left-contanier>button{
+    cursor: pointer;
+    background-color: red;
+    color:white;
+    padding: 15px;
+}
+.right-contanier{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 50vh;
+   
+}

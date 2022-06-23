@@ -35,7 +35,7 @@ leftPromise
 	.then((text) => (LEFT.innerText = text))
 	.catch((error) => console.error(error));
 
-fetch("https://jsonplaceholder.typicode.com/posts/1")
+  fetch("https://jsonplaceholder.typicode.com/posts/1")
 	.then((response) => {
 		return response.json();
 	})
